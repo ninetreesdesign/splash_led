@@ -1,0 +1,10 @@
+// flash LED N times
+void splashLED(byte n) {
+    for (byte i=0; i<n; i++) {
+        digitalWrite(LED_PIN,1);
+        delay(15);
+        digitalWrite(LED_PIN,0);
+        delay(200);
+    }
+    delay(300);
+}
